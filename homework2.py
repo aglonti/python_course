@@ -1,3 +1,7 @@
+''' Д/з №2 
+    применение операторов '''
+
+
 exponentiation = 5**5
 print ('5 to the 5th =', exponentiation) #оператор возведения в степень
 
