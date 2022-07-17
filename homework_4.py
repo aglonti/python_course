@@ -15,7 +15,13 @@ alphabet = string.ascii_letters # Вложение латинского алфа
 dictionary = (counter[alphabet]) # Подсчет кол-ва присутствующих в строке символов 
 print(counter) '''
 
- # 3
+''' # 3
+some_tuple = (0, 1, 2)
+some_list = list(some_tuple)  # Преобразование кортежа в список (из неизменяемого объекта в изменяемый)
+some_list.remove(1)  # Удаление первого элемента
+new_list = tuple(some_list)  # Обратное преобразование списка в кортеж
+print(new_list) '''
+
 ''' user_grocery = input ('Enter your grocery list ')
 user_grocery_list = user_grocery.split(' ') # Преобразование строки в список с разделением пробелом
 longest_word = (max(user_grocery_list, key=len)) # С помощью функции max() и ключа len определяем самое длинное слово в списке
