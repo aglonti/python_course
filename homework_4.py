@@ -69,6 +69,8 @@ for a in list_1_l:
             break
 print('Тrue {}' .format(list_3_l)) '''
 
+# Все видео посмотрела)
+
 
 
 
