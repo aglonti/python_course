@@ -30,7 +30,7 @@ else:
     print("All numbers are even") # Если цикл не прерван условием break, значит весь список чисел четный '''
 
 
-'''# 4
+''' # 4
 import copy
 dir_set = copy.deepcopy(dir(set)) # Копирование значений dir(set) в переменную
 for i in dir(set):
