@@ -38,6 +38,8 @@ for i in dir(set):
         dir_set.remove(i)
 print(dir_set) '''
 
+# 5 Статьи прочла)
+
 
 ''' # 6
 
