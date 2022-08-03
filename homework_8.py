@@ -17,7 +17,7 @@ print(max_number(first_num=input('Enter the first number '),
 
 def finding_max_three(first_num, second_num, third_num): # Создаем новую функцию, добавляем один аргумент
     process = finding_max_tw(first_num, second_num) 
-    return finding_max_tw(process, third_num) С использованием первой функции возвращаем max среди всех трех аргументов
+    return finding_max_tw(process, third_num) # С использованием первой функции возвращаем max среди всех трех аргументов
 
 print (finding_max_three(3,65,800)) '''
 
