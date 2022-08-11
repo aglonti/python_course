@@ -1,11 +1,13 @@
-# 1, конструкция try / except / finally
+# 1, конструкция try / except / else / finally
 ''' def division(num_1, num_2):
     try:
-        return int(num_1) / int(num_2)
+        print(int(num_1) / int(num_2))
     except ZeroDivisionError as e:
         print(e)
     except ValueError as e:
         print(e)
+    else:
+        print('Everything is ok')
     finally:
         print('Thank you for using program')
 
